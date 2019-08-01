@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="row">
+      <div class="col post-list nopadding">
+        List of repositories:
+        <ul>
+        $for(projects)$
+          <li>
+            <h3><a href="$url$" class="link">$name$</a></h3>
+          </li>
+        $endfor$
+        </ul>
+      </div>
+    </div>
+  </div>

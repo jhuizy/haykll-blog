@@ -1,0 +1,6 @@
+---
+title: Hakyll
+teaser: My first post about hakyll
+---
+
+This is my first blog post using hakyll.

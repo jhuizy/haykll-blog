@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="row">
+    <div class="col post-list nopadding">
+      List of posts:
+      <ul>
+      $for(posts)$
+        <li>
+          <h3><a href="$url$" class="link">$title$</a></h3>
+          <h6>$teaser$</h6>
+          <h6 class="date">$date$</h6>
+        </li>
+      $endfor$
+      </ul>
+    </div>
+  </div>
+</div>

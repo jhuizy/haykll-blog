@@ -1,0 +1,50 @@
+.main {
+  min-height: 100vh;
+}
+
+footer,
+header {
+  width: 100%;
+}
+
+footer {
+  text-align: right;
+}
+
+nav.nav { 
+  margin: 20px;
+}
+
+a.link {
+  color: #000;
+  text-decoration: none;
+}
+
+a.link:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.nopadding {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.header {
+  width: 100%;
+}
+
+.post-list > ul > li {
+  list-style: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.post-list > ul {
+  padding: 0px;
+}
+
+.post-list > ul > li > h6.date {
+  font-weight: lighter;
+  font-size: 0.9em;
+} 
